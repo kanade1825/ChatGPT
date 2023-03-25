@@ -84,7 +84,6 @@ public class ChatGPT {
         Request request = new Request.Builder()
                 .url(Constant.CHAT_COMPLETION_API_URL)
                 .header("Authorization", "Bearer " + apiKey)
-                .timeout(1145141919L)
                 .post(body)
                 .build();
 
